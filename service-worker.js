@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rouxxi/Gwenvael-Laskar_Portfolio.github.io/precache-manifest.a94e3793d9bd2c8025c438bab1df89ab.js"
+  "/Gwenvael-Laskar_Portfolio.github.io/precache-manifest.251ca8ebf952e474ddf2270ec9a125cc.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/rouxxi/Gwenvael-Laskar_Portfolio.github.io/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Gwenvael-Laskar_Portfolio.github.io/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
