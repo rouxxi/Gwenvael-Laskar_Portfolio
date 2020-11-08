@@ -1,0 +1,32 @@
+.barreProfil {
+    display: flex;
+    width: 20vw;
+}
+
+.jauge {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(199, 191, 191);
+    border-radius: 25px;
+}
+
+.jauge-jsNatif {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(36, 85, 47);
+    border-radius: 25px;
+}
+
+.jauge-react {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(36, 85, 47);
+    border-radius: 25px;
+}
+
+.jauge-html-css {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(36, 85, 47);
+    border-radius: 25px;
+}
