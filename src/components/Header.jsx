@@ -22,9 +22,21 @@ const Home = styled.img`
     width: 50px;
 `;
 
+const Lang=styled.div`
+    height:25px;
+    width:36px;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    border: 1px solid white;
+    cursor:pointer;
+    margin-right:30px;
+`;
 
 const MenuNav = styled.div`
-    padding: 0 30px 0 30px;
+    padding: 0 20px 0 10px;
     font-size:18px;
     display:flex;
     align-items:center;
@@ -44,8 +56,14 @@ const MenuNav = styled.div`
 
     @media  (min-width: 720px){
         font-size:36px;
+        margin: 0 30px 0 30px;
+
         ul{ li{
             margin: 0 30px 0 30px;
+        }
+
+        div{
+            font-size:36px;
         }
     }
     }
@@ -77,16 +95,22 @@ class Header extends React.Component {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}> Presentation</Link></li>
+                            duration={500}>{this.props.langFr?"Presentation":"Présentation"} </Link></li>
                         <li><Link
                             activeClass="active"
                             to="Projects"
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}> Projects </Link></li>
+                            duration={500}> {this.props.langFr?"Projects":"Projets"} </Link></li>
                     </ul>
+                    <Lang>
+        <p onClick={this.props.handleChange}>{this.props.langFr?"ENG":"FR"}</p>
+                </Lang>
                 </MenuNav>
+
+                
+
 
             </HeadDiv>
         )

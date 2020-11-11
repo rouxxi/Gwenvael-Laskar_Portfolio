@@ -20,16 +20,20 @@ const Me = styled.div`
     
 `;
 
-function Home() {
+class Home extends React.Component {
+    
+render() {
     return(
         <Body id="home">
             <Me>
-            <h1>Hello,</h1>
-            <h1>I'm Gwenvaël Laskar!</h1>
-            <h1>Web Developper junior</h1>
+    <h1>{this.props.langFr?"Bonjour,":"Hello,"}</h1>
+            <h1>{this.props.langFr?"Je suis Wenvael Laskar!":"I'm Gwenvaël Laskar!"}</h1>
+            <h1>{this.props.langFr?"Developpeur Web novice":"Web Developper junior"}</h1>
             </Me>
         </Body>
     )
+
+}
 }
 
 

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0eff12f2a28234391486df15d0d9bb4c",
+    "revision": "03c68dea0923f5f5c9f379596aab65a9",
     "url": "/my-cv-online/index.html"
   },
   {
-    "revision": "9c32eae6db0d63d69a9b",
+    "revision": "22cfb271ebb20e19cdb6",
     "url": "/my-cv-online/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "daad72a305574b36fd49",
+    "revision": "c1e47cc8e0e4ab6aa7bb",
     "url": "/my-cv-online/static/css/main.7a74f7e9.chunk.css"
   },
   {
-    "revision": "9c32eae6db0d63d69a9b",
-    "url": "/my-cv-online/static/js/2.aee00534.chunk.js"
+    "revision": "22cfb271ebb20e19cdb6",
+    "url": "/my-cv-online/static/js/2.cbe2382c.chunk.js"
   },
   {
     "revision": "7b2d499757f074408b675bf81ca3e694",
-    "url": "/my-cv-online/static/js/2.aee00534.chunk.js.LICENSE.txt"
+    "url": "/my-cv-online/static/js/2.cbe2382c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "daad72a305574b36fd49",
-    "url": "/my-cv-online/static/js/main.038b657e.chunk.js"
+    "revision": "c1e47cc8e0e4ab6aa7bb",
+    "url": "/my-cv-online/static/js/main.463ae969.chunk.js"
   },
   {
     "revision": "bc2a74e3226fa7b86965",

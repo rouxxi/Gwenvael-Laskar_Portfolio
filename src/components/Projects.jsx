@@ -97,7 +97,7 @@ class Project extends React.Component{
             <Firstdiv>
             <TitleProjects  id="Projects">
                 <div>
-                <h2>Some achievements</h2>
+        <h2>{this.props.langFr?"Projets réalisés":"Some achievements"}</h2>
                 </div>
             </TitleProjects>
             <Projects>
@@ -105,9 +105,9 @@ class Project extends React.Component{
                 <Thumbnail src={projet0}></Thumbnail> 
                   <Description>
                       <h2>Atlantic Box Office</h2>
-                      <p>it's a rework of an old web site of a friend's entreprise. I did this before came to the WildCodeSchool</p>
-                      <p>This web site need some work for finish it and put it on a web host</p>
-                <a href='https://rouxxi.github.io/atlanticboxoffice.github.io/'> <p>Let's check!</p> </a>
+        <p>{this.props.langFr?"Ce site est une refonte complète d'un site. Je l'ai commencé avec de rentré à la WildCodeSchool. ":"it's a rework of an old web site of a friend's entreprise. I did this before came to the WildCodeSchool"}</p>
+                      <p>{this.props.langFr?"Ce site nécessite encore quelques ajustement pour pouvoir le mettre en fonctionnement pour son entreprise.":"This web site need some work for finish it and put it on a web host"}</p>
+                <a href='https://rouxxi.github.io/atlanticboxoffice.github.io/'> <p>{this.props.langFr?"En savoir plus":"Let's check!"}</p> </a>
                   </Description> 
 
                 </ProjectNum>
@@ -116,8 +116,8 @@ class Project extends React.Component{
                     <Thumbnail src={ecureuil}></Thumbnail>
                   <Description>
                   <h2>AdopteUnEcureuil.com</h2>
-                      <p>it's a fake web site for a projet, during the first month of the WildCodeSchool. The goal of this web site is to give the oportunity to give a good life for some squirrels wounded, and catch by association for medicine. People can adopt a squirrel if they want!!</p>    
-                      <a href='https://rouxxi.github.io/AdopteUnEcureuil.github.io/index.html'>  <p>Let's check!</p></a>
+                      <p>{this.props.langFr?"Ce projet a été réalisé dans le cadre de la formation WildCodeSchool. Au cour du premier mois de formation on a du créer un site fictif. Notre thème à été l'adoption d'écureuil, issu de refuge.":"it's a fake web site for a projet, during the first month of the WildCodeSchool. The goal of this web site is to give the oportunity to give a good life for some squirrels wounded, and catch by association for medicine. People can adopt a squirrel if they want!!"}</p>    
+                      <a href='https://rouxxi.github.io/AdopteUnEcureuil.github.io/index.html'>  <p>{this.props.langFr?"En savoir plus":"Let's check!"}</p></a>
                   </Description>
          
                 </ProjectNum>
@@ -125,9 +125,8 @@ class Project extends React.Component{
                 <Thumbnail src={projet2}></Thumbnail> 
                   <Description>
                       <h2>VegeNantes Go</h2>
-                      <p>Sill in progress....</p>
-                      <p>It's a web site similar to pokémon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode</p>    
-                      <a href='https://www.figma.com/proto/lSD2QbVjzj2JgFfBJWCLfy/Herbier-nantais?node-id=173%3A93&scaling=min-zoom'><p>Let's check!</p></a>
+                      <p>{this.props.langFr?"En cours de réalisation ....":"Sill in progress...."}</p>
+                      <p> {this.props.langFr?"Ce site possèdent le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des Qrcode placé devant les plantes/arbres/arbustes.":"It's a web site similar to pokémon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode"}</p>                          <a href='https://www.figma.com/proto/lSD2QbVjzj2JgFfBJWCLfy/Herbier-nantais?node-id=173%3A93&scaling=min-zoom'><p>{this.props.langFr?"En savoir plus":"Let's check!"}</p></a>
 
                </Description>
 
