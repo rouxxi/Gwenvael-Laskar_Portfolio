@@ -34,6 +34,7 @@ const Head = styled.img`
 const Description = styled.div`
     padding: 1.2em;
     width:50vw;
+    font-size:24px;
     min-width: 300px;
     text-align:justify;
 `;
@@ -47,6 +48,7 @@ const Presentationfont = styled.div`
 
 const H2 = styled.h2`
     margin-top:0;
+    font-size:28px;
     padding: 30px 0px 10px  0px;
 `;
 
