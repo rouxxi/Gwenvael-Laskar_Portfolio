@@ -27,7 +27,7 @@ render() {
         <Body id="home">
             <Me>
     <h1>{this.props.langFr?"Bonjour,":"Hello,"}</h1>
-            <h1>{this.props.langFr?"Je suis Wenvael Laskar!":"I'm Gwenvaël Laskar!"}</h1>
+            <h1>{this.props.langFr?"Je suis Gwenvael Laskar!":"I'm Gwenvaël Laskar!"}</h1>
             <h1>{this.props.langFr?"Developpeur Web novice":"Web Developper junior"}</h1>
             </Me>
         </Body>
