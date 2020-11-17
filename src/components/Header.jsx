@@ -95,14 +95,14 @@ class Header extends React.Component {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}>{this.props.langFr?"Presentation":"Présentation"} </Link></li>
+                            duration={500}>{this.props.langFr?"Présentation":"Presentation"} </Link></li>
                         <li><Link
                             activeClass="active"
                             to="Projects"
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}> {this.props.langFr?"Projects":"Projets"} </Link></li>
+                            duration={500}> {this.props.langFr?"Projets":"Projects"} </Link></li>
                     </ul>
                     <Lang>
         <p onClick={this.props.handleChange}>{this.props.langFr?"ENG":"FR"}</p>

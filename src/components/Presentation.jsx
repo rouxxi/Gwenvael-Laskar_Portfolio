@@ -101,7 +101,7 @@ class Presentation extends React.Component {
                         <Head src={tete} alt="tete" data-aos="fade-left" />
                         <Description data-aos="fade-left" >
                         <p >{this.props.langFr?"Après avoir travaillé dans différents domaines professionnels, j'ai choisi de me reconvertir dans le numérique, plus particulièrement dans le métier de développeur Web. Je suis une personne motivé, c'est pourquoi j'ai rejoins la WildCodeSchool pour apprendre, et m'entrainer a ce métier.":"After working many years in differents areas, I decided  to reconvert myself in Web Development. I'm a motivated person and that is why I decided to join  Wild Code School to be able to train for this job."}</p>
-                        <p >{this.props.langFr?"Je suis a l'heure actuelle encore une petite pousse qui grandit. Je cherche un stage de 4mois dans la période du 15 février au 11 juin 2021, dans l'agglomération nantaise! ":"For the moment I am still a growing seed. I am looking for professional experience for a 4 month internship, during a période from 15 february 2021 to the 11 june 2021, near Nantes! "}</p>
+                        <p >{this.props.langFr?"Je suis a l'heure actuelle encore une petite pousse qui grandit. Je cherche un stage de 4mois dans la période du 15 février au 11 juin 2021, dans l'agglomération nantaise! ":"For the moment I am still a growing seed. I am looking for professional experience for a 4 month internship, from 15 february 2021 to the 11 june 2021, near Nantes! "}</p>
                         </Description>
                     </Profil>
                     <H2 data-aos="fade-right">{this.props.langFr?"Compétences":"Skills"}</H2>
@@ -122,7 +122,7 @@ class Presentation extends React.Component {
                     </SocialLink>
 
                     <Transition>
-                    <p >{this.props.langFr?"Dans la section Projets ci-dessous vous pouvez voir l'ensemble des projets sur lesquels j'ai travaillé!":"In the next part you will see all projects that i worked on!"}</p>
+                    <p >{this.props.langFr?"Dans la section Projets ci-dessous vous pouvez voir l'ensemble des projets sur lesquels j'ai travaillé!":"In the next part you will see all projects that I worked on!"}</p>
 
                     </Transition>
                     {/* <Internship data-aos="fade-up">

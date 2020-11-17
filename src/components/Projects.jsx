@@ -105,7 +105,7 @@ class Project extends React.Component{
                 <Thumbnail src={projet0}></Thumbnail> 
                   <Description>
                       <h2>Atlantic Box Office</h2>
-        <p>{this.props.langFr?"Ce site est une refonte complète d'un site. Je l'ai commencé avec de rentré à la WildCodeSchool. ":"it's a rework of an old web site of a friend's entreprise. I did this before came to the WildCodeSchool"}</p>
+        <p>{this.props.langFr?"Ce projet à été de réaliser une refonte complète d'un site d'un entreprise. Je l'ai commencé avec de rentré à la WildCodeSchool. ":"it's a rework of an old web site of an entreprise. I did this before came to the WildCodeSchool"}</p>
                       <p>{this.props.langFr?"Ce site nécessite encore quelques ajustement pour pouvoir le mettre en fonctionnement pour son entreprise.":"This web site need some work for finish it and put it on a web host"}</p>
                 <a href='https://rouxxi.github.io/atlanticboxoffice.github.io/'> <p>{this.props.langFr?"En savoir plus":"Let's check!"}</p> </a>
                   </Description> 
@@ -126,7 +126,7 @@ class Project extends React.Component{
                   <Description>
                       <h2>VegeNantes Go</h2>
                       <p>{this.props.langFr?"En cours de réalisation ....":"Sill in progress...."}</p>
-                      <p> {this.props.langFr?"Ce site possèdent le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des Qrcode placé devant les plantes/arbres/arbustes.":"It's a web site similar to pokémon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode"}</p>                          <a href='https://www.figma.com/proto/lSD2QbVjzj2JgFfBJWCLfy/Herbier-nantais?node-id=173%3A93&scaling=min-zoom'><p>{this.props.langFr?"En savoir plus":"Let's check!"}</p></a>
+                      <p> {this.props.langFr?"Ce site possèdent le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des Qrcode placé devant les plantes/arbres/arbustes.":"It's a web site similar to pokemon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode"}</p>                          <a href='https://www.figma.com/proto/lSD2QbVjzj2JgFfBJWCLfy/Herbier-nantais?node-id=173%3A93&scaling=min-zoom'><p>{this.props.langFr?"En savoir plus":"Let's check!"}</p></a>
 
                </Description>
 
