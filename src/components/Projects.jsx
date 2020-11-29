@@ -72,11 +72,11 @@ const TitleProjects = styled.div`
 `;
 
 const Firstdiv = styled.div`
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        flex-direction: column;
-        background-attachment: fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,8 +125,8 @@ class Project extends React.Component{
                 <Thumbnail src={projet2}></Thumbnail> 
                   <Description>
                       <h2>VegeNantes Go</h2>
-                      <p>{this.props.langFr?"En cours de réalisation ....":"Sill in progress...."}</p>
-                      <p> {this.props.langFr?"Ce site possèdent le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des Qrcode placé devant les plantes/arbres/arbustes.":"It's a web site similar to pokemon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode"}</p>                          <a href='https://www.figma.com/proto/lSD2QbVjzj2JgFfBJWCLfy/Herbier-nantais?node-id=173%3A93&scaling=min-zoom'><p>{this.props.langFr?"En savoir plus":"Let's check!"}</p></a>
+                      <p> {this.props.langFr?"Ce site possèdent le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des Qrcode placé devant les plantes/arbres/arbustes.":"It's a web site similar to pokemon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode"}</p>                          
+                      <a href='https://vegenantesgo.netlify.app/'><p>{this.props.langFr?"En savoir plus":"Let's check!"}</p></a>
 
                </Description>
 
