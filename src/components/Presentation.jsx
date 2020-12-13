@@ -41,8 +41,8 @@ const Description = styled.div`
 
 const Presentationfont = styled.div`
     min-height:fit-content;
-    padding:20px 20px 1rem 20px;
     text-align:center;
+    width:100%;
     background-color:white;
 `;
 
@@ -93,19 +93,18 @@ class Presentation extends React.Component {
     render(){
         AOS.init();
         return (
-            <div>
                 <Presentationfont>
-                    <H2 id="Presentation" data-aos="fade-right">{this.props.langFr?"Présentation":"Presentation"}</H2>
+                    <H2 id="Presentation" data-aos="fade-up">{this.props.langFr?"Présentation":"Presentation"}</H2>
     
                     <Profil >
-                        <Head src={tete} alt="tete" data-aos="fade-left" />
+                        <Head src={tete} alt="tete" data-aos="fade-up" />
                         <Description data-aos="fade-left" >
                         <p >{this.props.langFr?"Après avoir travaillé dans différents domaines professionnels, j'ai choisi de me reconvertir dans le numérique, plus particulièrement dans le métier de développeur Web. Je suis une personne motivé, c'est pourquoi j'ai rejoins la WildCodeSchool pour apprendre, et m'entrainer a ce métier.":"After working many years in differents areas, I decided  to reconvert myself in Web Development. I'm a motivated person and that is why I decided to join  Wild Code School to be able to train for this job."}</p>
                         <p >{this.props.langFr?"Je suis a l'heure actuelle encore une petite pousse qui grandit. Je cherche un stage de 4mois dans la période du 15 février au 11 juin 2021, dans l'agglomération nantaise! ":"For the moment I am still a growing seed. I am looking for professional experience for a 4 month internship, from 15 february 2021 to the 11 june 2021, near Nantes! "}</p>
                         </Description>
                     </Profil>
-                    <H2 data-aos="fade-right">{this.props.langFr?"Compétences":"Skills"}</H2>
-                    <Skills data-aos="fade-right">
+                    <H2 data-aos="fade-up">{this.props.langFr?"Compétences":"Skills"}</H2>
+                    <Skills data-aos="fade-up">
                         <Icone src={js} />
                         <Icone src={npm} />
                         <Icone src={html} />
@@ -113,8 +112,8 @@ class Presentation extends React.Component {
                         <Icone src={git} />
                         <Icone src={rere} />
                     </Skills>
-                    <H2 data-aos="fade-left">{this.props.langFr?"Restons en contacts":"Stay in touch"}</H2>
-                    <SocialLink data-aos="fade-left">
+                    <H2 data-aos="fade-up">{this.props.langFr?"Restons en contacts":"Stay in touch"}</H2>
+                    <SocialLink data-aos="fade-up">
                         <a href="https://www.linkedin.com/in/gwenvael-laskar-39096a1b8/"> <Icone src={linkedin} /> </a>
                         <a href="https://github.com/rouxxi"> <Icone src={github} /></a>
                         <a href="https://drive.google.com/file/d/1UpeYRgK7Rb-64aMpiQ7G3F6A4aG8KY_V/view?usp=sharing"><Icone src={cv} /></a>
@@ -130,7 +129,6 @@ class Presentation extends React.Component {
              <H2> Near Nantes from 15 february to 11 june 2021!</H2>
             </Internship> */}
                 </Presentationfont>
-            </div>
         )
     }
 }

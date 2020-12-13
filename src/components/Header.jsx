@@ -11,13 +11,13 @@ const HeadDiv = styled.div`
     position: fixed;
     top: 0;
     height: 8vh;
-    width:100vw;
+    width:100%;
     background-color: rgba(0,0,0, 0.9);
 `;
 
 const Home = styled.img`
     cursor: pointer;
-    padding-left:15px;
+    margin-left:15px;
     height:50px;
     width: 50px;
 `;
@@ -32,7 +32,7 @@ const Lang=styled.div`
     color:white;
     border: 1px solid white;
     cursor:pointer;
-    margin-right:30px;
+    margin-right:10px;
 `;
 
 const MenuNav = styled.div`
@@ -59,7 +59,7 @@ const MenuNav = styled.div`
         margin: 0 30px 0 30px;
 
         ul{ li{
-            margin: 0 30px 0 30px;
+            padding: 0 30px 0 30px;
         }
 
         div{

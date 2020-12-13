@@ -101,7 +101,7 @@ class Project extends React.Component{
                 </div>
             </TitleProjects>
             <Projects>
-                <ProjectNum data-aos="fade-up">
+                <ProjectNum data-aos="fade-right">
                 <Thumbnail src={projet0}></Thumbnail> 
                   <Description>
                       <h2>Atlantic Box Office</h2>
@@ -111,7 +111,7 @@ class Project extends React.Component{
                   </Description> 
 
                 </ProjectNum>
-                <ProjectNum data-aos="fade-up">
+                <ProjectNum data-aos="fade-left">
                 
                     <Thumbnail src={ecureuil}></Thumbnail>
                   <Description>
@@ -121,7 +121,7 @@ class Project extends React.Component{
                   </Description>
          
                 </ProjectNum>
-                <ProjectNum  data-aos="fade-up">
+                <ProjectNum  data-aos="fade-right">
                 <Thumbnail src={projet2}></Thumbnail> 
                   <Description>
                       <h2>VegeNantes Go</h2>
