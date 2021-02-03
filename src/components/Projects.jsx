@@ -65,7 +65,6 @@ const TitleProjects = styled.div`
 
   div {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 15px;
   }
 `;
 
@@ -98,7 +97,7 @@ class Project extends React.Component {
           </div>
         </TitleProjects>
         <Projects>
-          <ProjectNum data-aos='fade-left'>
+          <ProjectNum data-aos='fade-right'>
             <Thumbnail src={projet0}></Thumbnail>
             <Description>
               <h2>Atlantic Box Office</h2>
@@ -120,7 +119,7 @@ class Project extends React.Component {
               </a>
             </Description>
           </ProjectNum>
-          <ProjectNum data-aos='fade-left'>
+          <ProjectNum data-aos='fade-right'>
             <Thumbnail src={ecureuil}></Thumbnail>
             <Description>
               <h2>AdopteUnEcureuil.com</h2>
@@ -135,7 +134,7 @@ class Project extends React.Component {
               </a>
             </Description>
           </ProjectNum>
-          <ProjectNum data-aos='fade-left'>
+          <ProjectNum data-aos='fade-right'>
             <Thumbnail src={projet2}></Thumbnail>
             <Description>
               <h2>VegeNantes Go</h2>
