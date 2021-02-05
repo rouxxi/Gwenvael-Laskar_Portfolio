@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5051d5f05aecef23da3f793909b25250",
+    "revision": "01356724d5fb13dec6bb921cc4b4069b",
     "url": "/my-cv-online/index.html"
   },
   {
-    "revision": "22cfb271ebb20e19cdb6",
+    "revision": "9dcd1afd73f23ee5f702",
     "url": "/my-cv-online/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "25944d657d5955d56c44",
+    "revision": "17825d54eed15a41589b",
     "url": "/my-cv-online/static/css/main.7a74f7e9.chunk.css"
   },
   {
-    "revision": "22cfb271ebb20e19cdb6",
-    "url": "/my-cv-online/static/js/2.cbe2382c.chunk.js"
+    "revision": "9dcd1afd73f23ee5f702",
+    "url": "/my-cv-online/static/js/2.0965cc58.chunk.js"
   },
   {
-    "revision": "7b2d499757f074408b675bf81ca3e694",
-    "url": "/my-cv-online/static/js/2.cbe2382c.chunk.js.LICENSE.txt"
+    "revision": "8d190e2d02f8e768921a63f56a741895",
+    "url": "/my-cv-online/static/js/2.0965cc58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25944d657d5955d56c44",
-    "url": "/my-cv-online/static/js/main.53555602.chunk.js"
+    "revision": "17825d54eed15a41589b",
+    "url": "/my-cv-online/static/js/main.f3af7cdf.chunk.js"
   },
   {
     "revision": "bc2a74e3226fa7b86965",
     "url": "/my-cv-online/static/js/runtime-main.dd23bf2d.js"
+  },
+  {
+    "revision": "e43ea1e426d52d5981eae80dcc086276",
+    "url": "/my-cv-online/static/media/AvatarEpicRecip.e43ea1e4.png"
   },
   {
     "revision": "4325c8c59db90dc2288d5e15feb83850",
