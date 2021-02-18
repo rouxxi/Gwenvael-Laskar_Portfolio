@@ -103,8 +103,8 @@ class Project extends React.Component {
 							<h2>Epic Recip</h2>
 							<p>
 								{this.props.langFr
-									? "Lors de notre 1er HACKATHON, au sein d'un groupe de 4 personne, on s'est lancé dans le monde du jeux. On a réussit a produire un jeux (non responsive) qui pose une réelle difficultée pour gagner! Vous pouvez essayer si vous osez!"
-									: 'During som few crazy nights, we did an Epic game for an Epic Recip! As four i guess we did some great job. If you are brave enought you can try to win!'}
+									? "Lors de notre 1er HACKATHON, au sein d'un groupe de 4 personnes, on s'est lancé dans le monde du jeux. On a réussit a produire un jeu (non responsive) qui pose une réelle difficulté pour gagner! Vous pouvez essayer si vous osez!"
+									: 'During som few crazy nights, we did an Epic game for an Epic Recip! As four I guess we did some great job. If you are brave enought you can try to win!'}
 							</p>
 							<a href='https://epicrecip.netlify.app/'>
 								<p>{this.props.langFr ? 'En savoir plus' : "Let's check!"}</p>
@@ -117,13 +117,13 @@ class Project extends React.Component {
 							<h2>Atlantic Box Office</h2>
 							<p>
 								{this.props.langFr
-									? "Ce site web une refonte complète d'un site d'une entreprise. Je l'ai commencé avant de rentré à la WildCodeSchool. "
-									: "it's a rework of an old web site of an entreprise. I did this before came to the WildCodeSchool"}
+									? "Ce site web une refonte complète d'un site d'une entreprise. Je l'ai commencé avant de rentrer à la WildCodeSchool. "
+									: "It's a rework of an old web site of an entreprise. I did this before I came to the WildCodeSchool"}
 							</p>
 							<p>
 								{this.props.langFr
-									? 'Ce site nécessite encore quelques ajustement pour pouvoir le mettre en fonctionnement pour son entreprise.'
-									: 'This web site need some work for finish it and put it on a web host'}
+									? 'Ce site nécessite encore quelques ajustements pour pouvoir le mettre en fonctionnement pour son entreprise.'
+									: 'This web site needs some work to be finished to be ableto put it on a web host'}
 							</p>
 							<a href='https://atlanticboxoffice.eu'>
 								{' '}
@@ -139,8 +139,8 @@ class Project extends React.Component {
 							<h2>AdopteUnEcureuil.com</h2>
 							<p>
 								{this.props.langFr
-									? "Ce projet a été réalisé dans le cadre de la formation WildCodeSchool. Au cour du premier mois de formation on a du créer un site fictif. Notre thème à été l'adoption d'écureuil, issu de refuge."
-									: "it's a fake web site for a projet, during the first month of the WildCodeSchool. The goal of this web site is to give the oportunity to give a good life for some squirrels wounded, and catch by association for medicine. People can adopt a squirrel if they want!!"}
+									? "Ce projet a été réalisé dans le cadre de la formation WildCodeSchool. Au cour du premier mois de formation on a dù créer un site fictif. Notre thème à été l'adoption d'écureuil, issu de refuge."
+									: "It's a fake web site for a projet, during the first month of the WildCodeSchool. The goal of this web site is to give the oportunity to give a good life for some squirrels wounded, and catch by association for medicine. People can adopt a squirrel if they want!!"}
 							</p>
 							<a href='https://rouxxi.github.io/AdopteUnEcureuil.github.io/index.html'>
 								{' '}
@@ -155,8 +155,8 @@ class Project extends React.Component {
 							<p>
 								{' '}
 								{this.props.langFr
-									? 'Ce site possèdent le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des Qrcode placé devant les plantes/arbres/arbustes.'
-									: "It's a web site similar to pokemon GO, but with plants/trees/flowers !! The users can try to catch them all with Qrcode"}
+									? 'Ce site possède le même fonctionnement que pokémon Go. Des passionnés de plantes peuvent arpenter les parcs de Nantes afin de scanner des QR Code placé devant les plantes/arbres/arbustes.'
+									: "It's a web site similar to pokemon GO, but with plants/trees/flowers !! The users can try to catch them all with QR Code"}
 							</p>
 							<a href='https://vegenantesgo.netlify.app/'>
 								<p>{this.props.langFr ? 'En savoir plus' : "Let's check!"}</p>
